@@ -41,7 +41,8 @@ const CANDIDATES: string[] = [
 
 // The pick: D — denial, three escalating details, punch at the tail.
 // Revision 2: "it just happens to go past" tightened to "it just goes past".
-const ENTRY = CANDIDATES[3];
+const ENTRY =
+  "Trust me, this is the shortcut: one car wash, your ex's driveway, a stranger's wedding procession, and that same cul-de-sac four times. Saves 2 minutes. Arriving Thursday.";
 
 // Self-check against the sealed gate: 1-200 chars, one line, not blank,
 // pure ASCII (the gate counts UTF-8 bytes; an em dash would cost 3).
